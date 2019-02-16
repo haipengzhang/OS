@@ -1,0 +1,6 @@
+RewriteEngine On
+
+#框架伪静态规则 不准更改
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?MaGooType=$1 [QSA,PT,L]

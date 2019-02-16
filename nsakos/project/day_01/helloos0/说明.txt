@@ -1,0 +1,1 @@
+!cons是用来启动命令行，然后输入install调用install.bat刻录软盘,输入run是用来启动虚拟机的
