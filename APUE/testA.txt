@@ -1,0 +1,3 @@
+Hello world!
+The file is for copy by 1_5.c program!
+./a.out <testA.txt > testCopyA.txt
