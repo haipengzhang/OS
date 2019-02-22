@@ -1,0 +1,5 @@
+2.1:
+#ifndef _SIZE_T_DECLARED
+typedef __size_t sizt_t;
+#define _SIZE_T_DECLARED
+#endif
